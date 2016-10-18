@@ -68,7 +68,7 @@ int main(int argc, char *argv[]){
 			
 		}
 	}
-	//refresh();
+	refresh();
 	
 
 	for(i = 1; i < HEIGHT - 1; i++){
@@ -76,7 +76,7 @@ int main(int argc, char *argv[]){
 			mvaddch(j, i, '.');
 		}
 	}
-	//refresh();
+	refresh();
 
 	while((c = getch())!= 'q'){
 		if(c == KEY_MOUSE){
